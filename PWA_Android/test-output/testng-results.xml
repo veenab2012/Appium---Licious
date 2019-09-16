@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[{appPackage=com.licious, app=D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, clearSystemFiles=true, warnings={}, appWaitActivity=com.licious.intro.activity.SplashActivity, appWaitPackage=com.licious, databaseEnabled=false, deviceName=emulator-5554, avd=Veena_Nexus5_Nougat, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.licious.intro.activity.SplashActivity, desired={platformName=android, app=D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk, avd=Veena_Nexus5_Nougat, clearSystemFiles=true, deviceName=Veena_Nexus5_Nougat, platformVersion=7.0}, platformVersion=7.0, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, deviceModel=Android SDK built for x86, javascriptEnabled=true, deviceManufacturer=Google, platformName=android}]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57103" started-at="2019-09-12T12:04:15Z" finished-at="2019-09-12T12:05:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57103" started-at="2019-09-12T12:04:15Z" finished-at="2019-09-12T12:05:12Z">
+      <class name="com.licious.tests.MDOCTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="setUp" is-config="true" duration-ms="14131" started-at="2019-09-12T17:34:01Z" finished-at="2019-09-12T17:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="beforeTest" is-config="true" duration-ms="22543" started-at="2019-09-12T17:34:15Z" finished-at="2019-09-12T17:34:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[{appPackage=com.licious, app=D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, clearSystemFiles=true, warnings={}, appWaitActivity=com.licious.intro.activity.SplashActivity, appWaitPackage=com.licious, databaseEnabled=false, deviceName=emulator-5554, avd=Veena_Nexus5_Nougat, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.licious.intro.activity.SplashActivity, desired={platformName=android, app=D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk, avd=Veena_Nexus5_Nougat, clearSystemFiles=true, deviceName=Veena_Nexus5_Nougat, platformVersion=7.0}, platformVersion=7.0, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, deviceModel=Android SDK built for x86, javascriptEnabled=true, deviceManufacturer=Google, platformName=android}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-09-12T17:34:38Z" finished-at="2019-09-12T17:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.licious.tests.MDOCTest.createOrder() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createOrder()[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="createOrder" duration-ms="33740" started-at="2019-09-12T17:34:38Z" finished-at="2019-09-12T17:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-09-12T17:35:12Z" finished-at="2019-09-12T17:35:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.licious.tests.MDOCTest.createOrder1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createOrder1()[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="createOrder1" duration-ms="261" started-at="2019-09-12T17:35:12Z" finished-at="2019-09-12T17:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.licious.tests.MDOCTest@67784306]" name="tearDown" is-config="true" duration-ms="878" started-at="2019-09-12T17:35:12Z" finished-at="2019-09-12T17:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.licious.tests.MDOCTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

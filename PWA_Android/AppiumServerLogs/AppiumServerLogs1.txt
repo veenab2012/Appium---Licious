@@ -1,0 +1,642 @@
+2019-09-12 12:04:05:316 [Appium] Welcome to Appium v1.12.1
+2019-09-12 12:04:05:317 [Appium] Non-default server args:
+2019-09-12 12:04:05:318 [Appium]   address: 127.0.0.1
+2019-09-12 12:04:05:318 [Appium]   logFile: D:\Appium_Veena\PWA_Android\.\AppiumServerLogs\AppiumServerLogs1.txt
+2019-09-12 12:04:05:341 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-09-12 12:04:05:394 [HTTP] --> GET /wd/hub/status
+2019-09-12 12:04:05:394 [HTTP] {}
+2019-09-12 12:04:05:398 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-09-12 12:04:05:399 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.12.1"}}
+2019-09-12 12:04:05:402 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2019-09-12 12:04:05:403 [HTTP] 
+2019-09-12 12:04:15:972 [HTTP] --> POST /wd/hub/session
+2019-09-12 12:04:15:972 [HTTP] {"desiredCapabilities":{"app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","clearSystemFiles":true,"platformVersion":"7.0","platformName":"Android","deviceName":"Veena_Nexus5_Nougat","avd":"Veena_Nexus5_Nougat"},"capabilities":{"alwaysMatch":{"appium:app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","appium:avd":"Veena_Nexus5_Nougat","appium:clearSystemFiles":true,"appium:deviceName":"Veena_Nexus5_Nougat","platformName":"android","appium:platformVersion":"7.0"},"firstMatch":[{}]}}
+2019-09-12 12:04:15:972 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","clearSystemFiles":true,"platformVersion":"7.0","platformName":"Android","deviceName":"Veena_Nexus5_Nougat","avd":"Veena_Nexus5_Nougat"},null,{"alwaysMatch":{"appium:app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","appium:avd":"Veena_Nexus5_Nougat","appium:clearSystemFiles":true,"appium:deviceName":"Veena_Nexus5_Nougat","platformName":"android","appium:platformVersion":"7.0"},"firstMatch":[{}]}]
+2019-09-12 12:04:15:973 [BaseDriver] Event 'newSessionRequested' logged at 1568289855973 (17:34:15 GMT+0530 (India Standard Time))
+2019-09-12 12:04:15:978 [Appium] DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+2019-09-12 12:04:15:978 [Appium] Setting automation to 'UiAutomator1'. 
+2019-09-12 12:04:15:979 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+2019-09-12 12:04:16:137 [Appium] Appium v1.12.1 creating new AndroidDriver (v4.11.0) session
+2019-09-12 12:04:16:137 [Appium] Capabilities:
+2019-09-12 12:04:16:137 [Appium]   platformName: android
+2019-09-12 12:04:16:137 [Appium]   app: D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk
+2019-09-12 12:04:16:138 [Appium]   avd: Veena_Nexus5_Nougat
+2019-09-12 12:04:16:138 [Appium]   clearSystemFiles: true
+2019-09-12 12:04:16:138 [Appium]   deviceName: Veena_Nexus5_Nougat
+2019-09-12 12:04:16:138 [Appium]   platformVersion: 7.0
+2019-09-12 12:04:16:141 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"D:\\Appium_Veena\\P... were provided
+2019-09-12 12:04:16:141 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-09-12 12:04:16:146 [BaseDriver] Session created with session id: e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:16:148 [ADB] Checking whether adb is present
+2019-09-12 12:04:16:181 [ADB] Found 8 'build-tools' folders under 'C:\Users\Veena\AppData\Local\Android\android-sdk' (newest first):
+2019-09-12 12:04:16:183 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/29.0.0-rc1
+2019-09-12 12:04:16:183 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/29.0.0-preview
+2019-09-12 12:04:16:183 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/28.0.3
+2019-09-12 12:04:16:184 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/28.0.0-preview
+2019-09-12 12:04:16:184 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/24.0.3
+2019-09-12 12:04:16:184 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/24.0.2
+2019-09-12 12:04:16:184 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/24.0.1
+2019-09-12 12:04:16:184 [ADB]     C:/Users/Veena/AppData/Local/Android/android-sdk/build-tools/24.0.0
+2019-09-12 12:04:16:185 [ADB] Using adb.exe from C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+2019-09-12 12:04:16:185 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:16:185 [ADB] Getting connected emulators
+2019-09-12 12:04:16:186 [ADB] Getting connected devices...
+2019-09-12 12:04:16:320 [ADB] 0 device(s) connected
+2019-09-12 12:04:16:320 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:16:320 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:16:321 [ADB] Launching Emulator with AVD Veena_Nexus5_Nougat, launchTimeout 60000ms and readyTimeout 60000ms
+2019-09-12 12:04:16:321 [ADB] Checking whether emulator is present
+2019-09-12 12:04:16:322 [ADB] Using emulator.exe from C:\Users\Veena\AppData\Local\Android\android-sdk\emulator\emulator.exe
+2019-09-12 12:04:16:443 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\emulator\emulator.exe' with args: ["-avd","Veena_Nexus5_Nougat"]
+2019-09-12 12:04:16:460 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:16:460 [ADB] Getting connected emulators
+2019-09-12 12:04:16:460 [ADB] Getting connected devices...
+2019-09-12 12:04:16:578 [ADB] 0 device(s) connected
+2019-09-12 12:04:16:578 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:16:578 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:17:584 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:17:584 [ADB] Getting connected emulators
+2019-09-12 12:04:17:584 [ADB] Getting connected devices...
+2019-09-12 12:04:17:703 [ADB] 0 device(s) connected
+2019-09-12 12:04:17:703 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:17:703 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:18:711 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:18:711 [ADB] Getting connected emulators
+2019-09-12 12:04:18:711 [ADB] Getting connected devices...
+2019-09-12 12:04:18:829 [ADB] 0 device(s) connected
+2019-09-12 12:04:18:830 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:18:830 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:19:299 [ADB] [AVD OUTPUT] HAX is working and emulator runs in fast virt mode.
+2019-09-12 12:04:19:830 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:19:831 [ADB] Getting connected emulators
+2019-09-12 12:04:19:831 [ADB] Getting connected devices...
+2019-09-12 12:04:19:949 [ADB] 0 device(s) connected
+2019-09-12 12:04:19:949 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:19:950 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:20:950 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:20:950 [ADB] Getting connected emulators
+2019-09-12 12:04:20:950 [ADB] Getting connected devices...
+2019-09-12 12:04:21:083 [ADB] 0 device(s) connected
+2019-09-12 12:04:21:084 [ADB] 0 emulator(s) connected
+2019-09-12 12:04:21:084 [ADB] Emulator Veena_Nexus5_Nougat not running
+2019-09-12 12:04:22:085 [ADB] Trying to find Veena_Nexus5_Nougat emulator
+2019-09-12 12:04:22:085 [ADB] Getting connected emulators
+2019-09-12 12:04:22:086 [ADB] Getting connected devices...
+2019-09-12 12:04:22:281 [ADB] 1 device(s) connected
+2019-09-12 12:04:22:281 [ADB] 1 emulator(s) connected
+2019-09-12 12:04:22:282 [ADB] Sending telnet command to device: avd name
+2019-09-12 12:04:22:282 [ADB] Getting running emulator port
+2019-09-12 12:04:22:290 [ADB] Socket connection to device created
+2019-09-12 12:04:22:291 [ADB] Socket connection to device ready
+2019-09-12 12:04:22:291 [ADB] Telnet command got response: Veena_Nexus5_Nougat
+2019-09-12 12:04:22:292 [ADB] Found emulator Veena_Nexus5_Nougat in port 5554
+2019-09-12 12:04:22:292 [ADB] Setting device id to emulator-5554
+2019-09-12 12:04:22:294 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop init.svc.bootanim'
+2019-09-12 12:04:22:479 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm get-install-location'
+2019-09-12 12:04:22:863 [AndroidDriver] Using device: emulator-5554
+2019-09-12 12:04:22:864 [ADB] Setting device id to emulator-5554
+2019-09-12 12:04:22:865 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-09-12 12:04:23:056 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-09-12 12:04:23:056 [ADB] Device API level: 24
+2019-09-12 12:04:23:057 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-09-12 12:04:23:060 [BaseDriver] Using local app 'D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk'
+2019-09-12 12:04:23:063 [AndroidDriver] Checking whether app is actually present
+2019-09-12 12:04:23:063 [AndroidDriver] Starting Android session
+2019-09-12 12:04:23:064 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2019-09-12 12:04:23:203 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2019-09-12 12:04:23:349 [AndroidDriver] Pushing settings apk to device...
+2019-09-12 12:04:23:350 [ADB] Getting install status for io.appium.settings
+2019-09-12 12:04:23:350 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-09-12 12:04:23:498 [ADB] 'io.appium.settings' is installed
+2019-09-12 12:04:23:498 [ADB] Getting package info for 'io.appium.settings'
+2019-09-12 12:04:23:499 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-09-12 12:04:23:651 [ADB] Checking whether aapt is present
+2019-09-12 12:04:23:653 [ADB] Using aapt.exe from C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\29.0.0-rc1\aapt.exe
+2019-09-12 12:04:24:756 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-09-12 12:04:24:756 [ADB] There is no need to install/upgrade 'C:\Users\Veena\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-09-12 12:04:24:757 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-09-12 12:04:24:757 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2019-09-12 12:04:24:905 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep \^appium\\.settings\$'
+2019-09-12 12:04:25:093 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-09-12 12:04:25:094 [Logcat] Starting logcat capture
+2019-09-12 12:04:25:253 [ADB] Getting device platform version
+2019-09-12 12:04:25:253 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2019-09-12 12:04:25:439 [ADB] Current device property 'ro.build.version.release': 7.0
+2019-09-12 12:04:25:439 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell wm size'
+2019-09-12 12:04:25:877 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.model'
+2019-09-12 12:04:26:078 [ADB] Current device property 'ro.product.model': Android SDK built for x86
+2019-09-12 12:04:26:078 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+2019-09-12 12:04:26:263 [ADB] Current device property 'ro.product.manufacturer': Google
+2019-09-12 12:04:26:264 [AndroidDriver] Parsing package and activity from app manifest
+2019-09-12 12:04:26:267 [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\emulator\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\tools\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\tools\bin\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\29.0.0-rc1\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\29.0.0-preview\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\28.0.3\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\28.0.0-preview\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\24.0.3\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\24.0.2\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\24.0.1\apkanalyzer.bat,C:\Users\Veena\AppData\Local\Android\android-sdk\build-tools\24.0.0\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\Veena\AppData\Local\Android\android-sdk'?
+2019-09-12 12:04:26:268 [ADB] Extracting package and launch activity from manifest
+2019-09-12 12:04:27:469 [ADB] Package name: 'com.licious'
+2019-09-12 12:04:27:469 [ADB] Main activity name: 'com.licious.intro.activity.SplashActivity'
+2019-09-12 12:04:27:469 [AndroidDriver] Parsed package and activity are: com.licious/com.licious.intro.activity.SplashActivity
+2019-09-12 12:04:27:470 [ADB] Getting install status for com.licious
+2019-09-12 12:04:27:470 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.licious'
+2019-09-12 12:04:27:618 [ADB] 'com.licious' is installed
+2019-09-12 12:04:27:618 [ADB] Getting install status for com.licious
+2019-09-12 12:04:27:618 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.licious'
+2019-09-12 12:04:27:779 [ADB] 'com.licious' is installed
+2019-09-12 12:04:27:779 [ADB] Getting package info for 'com.licious'
+2019-09-12 12:04:27:779 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.licious'
+2019-09-12 12:04:30:951 [ADB] The version name of the installed 'com.licious' is greater or equal to the application version name ('3.4.20' >= '3.4.20')
+2019-09-12 12:04:30:951 [ADB] There is no need to install/upgrade 'D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk'
+2019-09-12 12:04:30:951 [AndroidDriver] Performing fast reset on 'com.licious'
+2019-09-12 12:04:30:952 [ADB] Getting install status for com.licious
+2019-09-12 12:04:30:952 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.licious'
+2019-09-12 12:04:31:116 [ADB] 'com.licious' is installed
+2019-09-12 12:04:31:116 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.licious'
+2019-09-12 12:04:31:505 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.licious'
+2019-09-12 12:04:31:893 [AndroidDriver] Performed fast reset on the installed 'com.licious' application (stop and clear)
+2019-09-12 12:04:31:894 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell rm -rf /data/local/tmp/strings.json'
+2019-09-12 12:04:32:054 [AndroidDriver] Extracting strings from apk
+2019-09-12 12:04:32:054 [AndroidDriver] D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk
+2019-09-12 12:04:32:054 [AndroidDriver] null
+2019-09-12 12:04:32:055 [AndroidDriver] C:\Users\Veena\AppData\Local\Temp\com.licious
+2019-09-12 12:04:32:055 [ADB] Extracting strings from for language: default
+2019-09-12 12:04:33:479 [ADB] Successfully extracted 473 strings from 'D:\Appium_Veena\PWA_Android\BuildFiles\3.4.20.105.apk' resources for '(default)' configuration
+2019-09-12 12:04:33:485 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 push C\:\\Users\\Veena\\AppData\\Local\\Temp\\com.licious\\strings.json /data/local/tmp'
+2019-09-12 12:04:33:627 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-09-12 12:04:33:628 [ADB] Forwarding system: 4724 to device: 4724
+2019-09-12 12:04:33:628 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp\:4724 tcp\:4724'
+2019-09-12 12:04:33:760 [UiAutomator] Starting UiAutomator
+2019-09-12 12:04:33:760 [UiAutomator] Moving to state 'starting'
+2019-09-12 12:04:33:761 [UiAutomator] Parsing uiautomator jar
+2019-09-12 12:04:33:761 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-09-12 12:04:33:761 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 push C\:\\Users\\Veena\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-09-12 12:04:33:919 [ADB] Attempting to kill all uiautomator processes
+2019-09-12 12:04:33:919 [ADB] Getting IDs of all 'uiautomator' processes
+2019-09-12 12:04:33:920 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep \^uiautomator\$'
+2019-09-12 12:04:34:092 [ADB] No 'uiautomator' process has been found
+2019-09-12 12:04:34:092 [UiAutomator] Starting UIAutomator
+2019-09-12 12:04:34:092 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.licious","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-09-12 12:04:34:498 [UiAutomator] Moving to state 'online'
+2019-09-12 12:04:34:500 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2019-09-12 12:04:34:500 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-09-12 12:04:34:501 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2019-09-12 12:04:34:512 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-09-12 12:04:34:512 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-09-12 12:04:34:512 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-09-12 12:04:34:654 [AndroidDriver] Screen already unlocked, doing nothing
+2019-09-12 12:04:34:655 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.licious/com.licious.intro.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-09-12 12:04:37:550 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.licious' and activity: 'com.licious.intro.activity.SplashActivity' to be focused
+2019-09-12 12:04:37:551 [ADB] Possible activities, to be checked: 'com.licious.intro.activity.SplashActivity', 'com.licious.com.licious.intro.activity.SplashActivity'
+2019-09-12 12:04:37:552 [ADB] Getting focused package and activity
+2019-09-12 12:04:37:552 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window windows'
+2019-09-12 12:04:37:758 [ADB] Found package: 'com.licious' and fully qualified activity name : 'com.licious.intro.activity.SplashActivity'
+2019-09-12 12:04:37:759 [Appium] New AndroidDriver session created successfully, session e4149c5f-6e55-4816-adff-22706222865f added to master session list
+2019-09-12 12:04:37:759 [BaseDriver] Event 'newSessionStarted' logged at 1568289877759 (17:34:37 GMT+0530 (India Standard Time))
+2019-09-12 12:04:37:760 [W3C (e4149c5f)] Cached the protocol value 'W3C' for the new session e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:37:760 [W3C (e4149c5f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}}
+2019-09-12 12:04:37:762 [HTTP] <-- POST /wd/hub/session 200 21789 ms - 993
+2019-09-12 12:04:37:762 [HTTP] 
+2019-09-12 12:04:37:802 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:37:802 [HTTP] {}
+2019-09-12 12:04:37:803 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:37:813 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:37:814 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 12 ms - 925
+2019-09-12 12:04:37:814 [HTTP] 
+2019-09-12 12:04:37:824 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:37:825 [HTTP] {}
+2019-09-12 12:04:37:825 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:37:827 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:37:828 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 3 ms - 925
+2019-09-12 12:04:37:829 [HTTP] 
+2019-09-12 12:04:37:837 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/timeouts
+2019-09-12 12:04:37:838 [HTTP] {"implicit":20000}
+2019-09-12 12:04:37:838 [W3C (e4149c5f)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:37:840 [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2019-09-12 12:04:37:841 [BaseDriver] Set implicit wait to 20000ms
+2019-09-12 12:04:37:842 [W3C (e4149c5f)] Responding to client with driver.timeouts() result: null
+2019-09-12 12:04:37:843 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/timeouts 200 5 ms - 14
+2019-09-12 12:04:37:843 [HTTP] 
+2019-09-12 12:04:37:849 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/appium/device/unlock
+2019-09-12 12:04:37:849 [HTTP] {}
+2019-09-12 12:04:37:856 [W3C (e4149c5f)] Calling AppiumDriver.unlock() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:37:858 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2019-09-12 12:04:38:051 [AndroidDriver] Screen already unlocked, doing nothing
+2019-09-12 12:04:38:052 [W3C (e4149c5f)] Responding to client with driver.unlock() result: null
+2019-09-12 12:04:38:052 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/appium/device/unlock 200 203 ms - 14
+2019-09-12 12:04:38:053 [HTTP] 
+2019-09-12 12:04:38:055 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:38:055 [HTTP] {}
+2019-09-12 12:04:38:055 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:38:058 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:38:059 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 4 ms - 925
+2019-09-12 12:04:38:059 [HTTP] 
+2019-09-12 12:04:38:147 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:38:147 [HTTP] {}
+2019-09-12 12:04:38:147 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:38:148 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:38:149 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 2 ms - 925
+2019-09-12 12:04:38:149 [HTTP] 
+2019-09-12 12:04:38:153 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:38:153 [HTTP] {}
+2019-09-12 12:04:38:154 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:38:155 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:38:156 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 3 ms - 925
+2019-09-12 12:04:38:157 [HTTP] 
+2019-09-12 12:04:43:397 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:04:43:397 [HTTP] {}
+2019-09-12 12:04:43:401 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:43:402 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:43:406 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:43:407 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:43:407 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:04:43:407 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:04:43:408 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:43:409 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:04:43:410 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 13 ms - 50
+2019-09-12 12:04:43:410 [HTTP] 
+2019-09-12 12:04:43:422 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:04:43:422 [HTTP] {"actions":[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}]}
+2019-09-12 12:04:43:422 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:43:425 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:43:427 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:43:427 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:43:428 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:04:43:429 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:43:429 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 972, y: 897
+2019-09-12 12:04:43:433 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:43:433 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:43:434 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:43:435 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:43:436 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:43:436 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:04:43:437 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:43:438 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 108, y: 897
+2019-09-12 12:04:43:455 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:43:456 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:43:456 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:43:459 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:43:459 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:43:459 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:04:43:462 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:43:463 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 108, y: 897
+2019-09-12 12:04:43:479 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:43:480 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:43:481 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:04:43:484 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 60 ms - 14
+2019-09-12 12:04:43:485 [HTTP] 
+2019-09-12 12:04:45:486 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:04:45:487 [HTTP] {}
+2019-09-12 12:04:45:487 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:45:488 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:45:489 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:45:490 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:45:490 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:04:45:490 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:45:491 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:04:45:491 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:04:45:492 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 5 ms - 50
+2019-09-12 12:04:45:492 [HTTP] 
+2019-09-12 12:04:45:497 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:04:45:497 [HTTP] {"actions":[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}]}
+2019-09-12 12:04:45:498 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:45:499 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:45:500 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:45:501 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:45:501 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:04:45:502 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:45:502 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 972, y: 897
+2019-09-12 12:04:45:503 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:45:503 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:45:503 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:45:504 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:45:505 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:45:506 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:04:45:506 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:45:506 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 108, y: 897
+2019-09-12 12:04:45:519 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:45:522 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:45:522 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:45:524 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:45:524 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:45:525 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:04:45:526 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:45:526 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 108, y: 897
+2019-09-12 12:04:45:540 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:45:541 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:45:542 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:04:45:543 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 45 ms - 14
+2019-09-12 12:04:45:544 [HTTP] 
+2019-09-12 12:04:47:546 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:04:47:547 [HTTP] {}
+2019-09-12 12:04:47:547 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:47:548 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:47:550 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:04:47:550 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:47:550 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:04:47:551 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:47:551 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:04:47:551 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:04:47:552 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 6 ms - 50
+2019-09-12 12:04:47:552 [HTTP] 
+2019-09-12 12:04:47:559 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:04:47:559 [HTTP] {"actions":[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}]}
+2019-09-12 12:04:47:560 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":972,"y":897}},{"action":"moveTo","options":{"x":108,"y":897}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:47:561 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:47:562 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":972,"y":897}}
+2019-09-12 12:04:47:563 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:47:563 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:04:47:564 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:47:564 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 972, y: 897
+2019-09-12 12:04:47:567 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:47:567 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:47:568 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:47:570 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":108,"y":897}}
+2019-09-12 12:04:47:570 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:47:570 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:04:47:573 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:47:573 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 108, y: 897
+2019-09-12 12:04:47:588 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:47:589 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:47:589 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:47:591 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":108,"y":897}}
+2019-09-12 12:04:47:591 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:47:592 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:04:47:593 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:04:47:593 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 108, y: 897
+2019-09-12 12:04:47:597 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:47:600 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:47:600 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:04:47:601 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 42 ms - 14
+2019-09-12 12:04:47:602 [HTTP] 
+2019-09-12 12:04:49:608 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:49:609 [HTTP] {}
+2019-09-12 12:04:49:609 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:49:610 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:49:611 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 2 ms - 925
+2019-09-12 12:04:49:611 [HTTP] 
+2019-09-12 12:04:49:618 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element
+2019-09-12 12:04:49:618 [HTTP] {"using":"id","value":"com.licious:id/tvGetStarted"}
+2019-09-12 12:04:49:619 [W3C (e4149c5f)] Calling AppiumDriver.findElement() with args: ["id","com.licious:id/tvGetStarted","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:49:620 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-09-12 12:04:49:620 [BaseDriver] Waiting up to 20000 ms for condition
+2019-09-12 12:04:49:621 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.licious:id/tvGetStarted","context":"","multiple":false}}
+2019-09-12 12:04:49:623 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.licious:id/tvGetStarted","context":"","multiple":false}}
+2019-09-12 12:04:49:624 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:49:624 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-09-12 12:04:49:624 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.licious:id/tvGetStarted' using 'ID' with the contextId: '' multiple: false
+2019-09-12 12:04:49:624 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.licious:id/tvGetStarted]
+2019-09-12 12:04:49:628 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:49:628 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2019-09-12 12:04:49:629 [W3C (e4149c5f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+2019-09-12 12:04:49:629 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element 200 11 ms - 67
+2019-09-12 12:04:49:630 [HTTP] 
+2019-09-12 12:04:49:634 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/1/click
+2019-09-12 12:04:49:634 [HTTP] {"id":"1"}
+2019-09-12 12:04:49:634 [W3C (e4149c5f)] Calling AppiumDriver.click() with args: ["1","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:49:635 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-09-12 12:04:49:636 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-09-12 12:04:49:636 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:49:636 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-09-12 12:04:50:163 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:50:164 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:50:164 [W3C (e4149c5f)] Responding to client with driver.click() result: true
+2019-09-12 12:04:50:165 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/1/click 200 531 ms - 14
+2019-09-12 12:04:50:165 [HTTP] 
+2019-09-12 12:04:52:174 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:52:175 [HTTP] {}
+2019-09-12 12:04:52:177 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:52:180 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:52:183 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 8 ms - 925
+2019-09-12 12:04:52:184 [HTTP] 
+2019-09-12 12:04:52:201 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element
+2019-09-12 12:04:52:203 [HTTP] {"using":"xpath","value":"//*[@class='android.widget.ImageView']"}
+2019-09-12 12:04:52:205 [W3C (e4149c5f)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@class='android.widget.ImageView']","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:52:209 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-09-12 12:04:52:210 [BaseDriver] Waiting up to 20000 ms for condition
+2019-09-12 12:04:52:211 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@class='android.widget.ImageView']","context":"","multiple":false}}
+2019-09-12 12:04:52:218 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@class='android.widget.ImageView']","context":"","multiple":false}}
+2019-09-12 12:04:52:220 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:52:222 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-09-12 12:04:52:225 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@class='android.widget.ImageView']' using 'XPATH' with the contextId: '' multiple: false
+2019-09-12 12:04:52:575 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0]
+2019-09-12 12:04:52:603 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2019-09-12 12:04:52:605 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:52:607 [W3C (e4149c5f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+2019-09-12 12:04:52:609 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element 200 407 ms - 67
+2019-09-12 12:04:52:610 [HTTP] 
+2019-09-12 12:04:52:621 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/2/click
+2019-09-12 12:04:52:622 [HTTP] {"id":"2"}
+2019-09-12 12:04:52:624 [W3C (e4149c5f)] Calling AppiumDriver.click() with args: ["2","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:52:628 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-09-12 12:04:52:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-09-12 12:04:52:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:52:636 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-09-12 12:04:54:026 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:54:026 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:54:027 [W3C (e4149c5f)] Responding to client with driver.click() result: true
+2019-09-12 12:04:54:028 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/2/click 200 1406 ms - 14
+2019-09-12 12:04:54:028 [HTTP] 
+2019-09-12 12:04:54:033 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f
+2019-09-12 12:04:54:033 [HTTP] {}
+2019-09-12 12:04:54:033 [W3C (e4149c5f)] Calling AppiumDriver.getSession() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:54:035 [W3C (e4149c5f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"Veena_Nexus5_Nougat","platformVersion":"7.0"},"platformName":"android","app":"D:\\Appium_Veena\\PWA_Android\\BuildFiles\\3.4.20.105.apk","avd":"Veena_Nexus5_Nougat","clearSystemFiles":true,"deviceName":"emulator-5554","platformVersion":"7.0","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.licious","appWaitPackage":"com.licious","appActivity":"com.licious.intro.activity.SplashActivity","appWaitActivity":"com.licious.intro.activity.SplashActivity"}
+2019-09-12 12:04:54:036 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f 200 2 ms - 925
+2019-09-12 12:04:54:036 [HTTP] 
+2019-09-12 12:04:54:045 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element
+2019-09-12 12:04:54:046 [HTTP] {"using":"id","value":"com.licious:id/etAreaSearch"}
+2019-09-12 12:04:54:048 [W3C (e4149c5f)] Calling AppiumDriver.findElement() with args: ["id","com.licious:id/etAreaSearch","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:54:049 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-09-12 12:04:54:049 [BaseDriver] Waiting up to 20000 ms for condition
+2019-09-12 12:04:54:049 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.licious:id/etAreaSearch","context":"","multiple":false}}
+2019-09-12 12:04:54:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.licious:id/etAreaSearch","context":"","multiple":false}}
+2019-09-12 12:04:54:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:54:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-09-12 12:04:54:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.licious:id/etAreaSearch' using 'ID' with the contextId: '' multiple: false
+2019-09-12 12:04:54:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.licious:id/etAreaSearch]
+2019-09-12 12:04:54:624 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:54:624 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2019-09-12 12:04:54:625 [W3C (e4149c5f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+2019-09-12 12:04:54:626 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element 200 581 ms - 67
+2019-09-12 12:04:54:626 [HTTP] 
+2019-09-12 12:04:54:634 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/3/value
+2019-09-12 12:04:54:634 [HTTP] {"id":"3","text":"Indiranagar","value":["I","n","d","i","r","a","n","a","g","a","r"]}
+2019-09-12 12:04:54:634 [W3C (e4149c5f)] Calling AppiumDriver.setValue() with args: [["I","n","d","i","r","a","n","a","g","a","r"],"3","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:04:54:635 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"Indiranagar","replace":false}}
+2019-09-12 12:04:54:637 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"Indiranagar","replace":false}}
+2019-09-12 12:04:54:637 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:04:54:638 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-09-12 12:04:54:638 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 3
+2019-09-12 12:04:54:644 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-09-12 12:04:56:945 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-09-12 12:04:56:948 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-09-12 12:04:56:949 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Indiranagar
+2019-09-12 12:04:59:364 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:04:59:365 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:04:59:365 [W3C (e4149c5f)] Responding to client with driver.setValue() result: true
+2019-09-12 12:04:59:366 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/3/value 200 4732 ms - 14
+2019-09-12 12:04:59:367 [HTTP] 
+2019-09-12 12:05:01:378 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element
+2019-09-12 12:05:01:379 [HTTP] {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Indiranagar, Bengaluru, Karnataka, India\").instance(0))"}
+2019-09-12 12:05:01:381 [W3C (e4149c5f)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Indiranagar, Bengaluru, Karnataka, India\").instance(0))","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:01:388 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-09-12 12:05:01:389 [BaseDriver] Waiting up to 20000 ms for condition
+2019-09-12 12:05:01:390 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Indiranagar, Bengaluru, Karnataka, India\").instance(0))","context":"","multiple":false}}
+2019-09-12 12:05:01:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Indiranagar, Bengaluru, Karnataka, India\").instance(0))","context":"","multiple":false}}
+2019-09-12 12:05:01:397 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:01:397 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-09-12 12:05:01:398 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Indiranagar, Bengaluru, Karnataka, India").instance(0))' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-09-12 12:05:01:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Indiranagar, Bengaluru, Karnataka, India").instance(0))
+2019-09-12 12:05:01:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: boolean arg: true
+2019-09-12 12:05:01:402 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+2019-09-12 12:05:01:404 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().textContains("Indiranagar, Bengaluru, Karnataka, India").instance(0),
+2019-09-12 12:05:01:405 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().textContains("Indiranagar, Bengaluru, Karnataka, India").instance(0)
+2019-09-12 12:05:01:421 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Indiranagar, Bengaluru, Karnataka, India"
+2019-09-12 12:05:01:423 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+2019-09-12 12:05:01:424 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Method name: scrollIntoView
+2019-09-12 12:05:01:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Setting uiObject for scrollIntoView
+2019-09-12 12:05:01:479 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Not scrolling because scrollable does not exist: UiSelector[INSTANCE=0, SCROLLABLE=true]
+2019-09-12 12:05:01:485 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CONTAINS_TEXT=Indiranagar, Bengaluru, Karnataka, India, INSTANCE=0]
+2019-09-12 12:05:01:569 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2019-09-12 12:05:01:571 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:01:573 [W3C (e4149c5f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"}
+2019-09-12 12:05:01:575 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element 200 196 ms - 67
+2019-09-12 12:05:01:576 [HTTP] 
+2019-09-12 12:05:01:590 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/4/click
+2019-09-12 12:05:01:591 [HTTP] {"id":"4"}
+2019-09-12 12:05:01:592 [W3C (e4149c5f)] Calling AppiumDriver.click() with args: ["4","e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:01:596 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-09-12 12:05:01:603 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-09-12 12:05:01:605 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:01:606 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-09-12 12:05:01:805 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:01:807 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:01:808 [W3C (e4149c5f)] Responding to client with driver.click() result: true
+2019-09-12 12:05:01:811 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/element/4/click 200 220 ms - 14
+2019-09-12 12:05:01:812 [HTTP] 
+2019-09-12 12:05:12:118 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:05:12:118 [HTTP] {}
+2019-09-12 12:05:12:119 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:120 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:123 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:05:12:123 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:124 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:05:12:125 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 7 ms - 50
+2019-09-12 12:05:12:125 [HTTP] 
+2019-09-12 12:05:12:125 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:05:12:130 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:05:12:130 [HTTP] {"actions":[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}]}
+2019-09-12 12:05:12:131 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:132 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:134 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:134 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:134 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:05:12:135 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:135 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 540, y: 1255
+2019-09-12 12:05:12:139 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:139 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:139 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:141 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:142 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:142 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:05:12:143 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:143 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 540, y: 538
+2019-09-12 12:05:12:163 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:169 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:169 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:172 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:173 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:173 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:05:12:174 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:174 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 540, y: 538
+2019-09-12 12:05:12:176 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:177 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:177 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:05:12:178 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 48 ms - 14
+2019-09-12 12:05:12:178 [HTTP] 
+2019-09-12 12:05:12:180 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:05:12:181 [HTTP] {}
+2019-09-12 12:05:12:182 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:183 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:186 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:186 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:187 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:05:12:187 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:188 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:05:12:189 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:05:12:191 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 9 ms - 50
+2019-09-12 12:05:12:192 [HTTP] 
+2019-09-12 12:05:12:199 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:05:12:201 [HTTP] {"actions":[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}]}
+2019-09-12 12:05:12:202 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:205 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:211 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:211 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:213 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:05:12:213 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:214 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 540, y: 1255
+2019-09-12 12:05:12:219 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:219 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:220 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:224 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:225 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:225 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:05:12:226 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:226 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 540, y: 538
+2019-09-12 12:05:12:255 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:256 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:256 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:259 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:260 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:261 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:05:12:264 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:264 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 540, y: 538
+2019-09-12 12:05:12:269 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:270 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:271 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:05:12:272 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 74 ms - 14
+2019-09-12 12:05:12:272 [HTTP] 
+2019-09-12 12:05:12:276 [HTTP] --> GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect
+2019-09-12 12:05:12:276 [HTTP] {}
+2019-09-12 12:05:12:277 [W3C (e4149c5f)] Calling AppiumDriver.getWindowRect() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:278 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:283 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-09-12 12:05:12:284 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:285 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-09-12 12:05:12:287 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:290 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+2019-09-12 12:05:12:291 [W3C (e4149c5f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":1794,"x":0,"y":0}
+2019-09-12 12:05:12:292 [HTTP] <-- GET /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/window/rect 200 16 ms - 50
+2019-09-12 12:05:12:292 [HTTP] 
+2019-09-12 12:05:12:299 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform
+2019-09-12 12:05:12:300 [HTTP] {"actions":[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}]}
+2019-09-12 12:05:12:300 [W3C (e4149c5f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":540,"y":1255}},{"action":"moveTo","options":{"x":540,"y":538}},{"action":"release","options":{}}],"e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:305 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:311 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":540,"y":1255}}
+2019-09-12 12:05:12:312 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:312 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+2019-09-12 12:05:12:313 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:313 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? false x: 540, y: 1255
+2019-09-12 12:05:12:327 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:328 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:328 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:330 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchMove","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:330 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:332 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchMove
+2019-09-12 12:05:12:333 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:333 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchMove using element? false x: 540, y: 538
+2019-09-12 12:05:12:355 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:355 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:356 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:362 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":540,"y":538}}
+2019-09-12 12:05:12:362 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-12 12:05:12:362 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+2019-09-12 12:05:12:363 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+2019-09-12 12:05:12:364 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 540, y: 538
+2019-09-12 12:05:12:370 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-09-12 12:05:12:370 [AndroidBootstrap] Received command result from bootstrap
+2019-09-12 12:05:12:371 [W3C (e4149c5f)] Responding to client with driver.performTouch() result: null
+2019-09-12 12:05:12:372 [HTTP] <-- POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/touch/perform 200 72 ms - 14
+2019-09-12 12:05:12:374 [HTTP] 
+2019-09-12 12:05:12:675 [HTTP] --> POST /wd/hub/session/e4149c5f-6e55-4816-adff-22706222865f/appium/app/close
+2019-09-12 12:05:12:675 [HTTP] {}
+2019-09-12 12:05:12:676 [W3C (e4149c5f)] Calling AppiumDriver.closeApp() with args: ["e4149c5f-6e55-4816-adff-22706222865f"]
+2019-09-12 12:05:12:679 [ADB] Running 'C:\Users\Veena\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.licious'
+2019-09-12 12:05:13:492 [W3C (e4149c5f)] Responding to client with driver.closeApp() result: null
